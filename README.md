@@ -1,6 +1,6 @@
 # FastAPI - fastML
 
-That repository contains an API to send request our Random Forest Classification machine learning algorithm.
+That repository contains an API to send request our Random Forest Classification model.
 
 FastAPI is a modern, fast, web framework for building APIs with Python 3.7+ based on standard Python type hints. It is designed to be easy to use and to enable the development of high-performance APIs quickly.
 
