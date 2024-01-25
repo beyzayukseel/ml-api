@@ -39,5 +39,33 @@ pip install uvicorn gunicorn fastapi pydantic sklearn pandas
 uvicorn random-classifier-api:app --reload
 ```
 
+##### EXAMPLE REQUEST:
 
+
+```
+curl --location 'http://localhost:8000/' \
+--header 'Content-Type: application/json' \
+--header 'Cookie: JSESSIONID=874A4DD28D5E9A6D34F15970F25E39BA' \
+--data '{
+    "age":7,
+    "gender":0,
+    "number_of_siblings":4,
+    "weekly_tv_watch_hour": 3,
+    "weekly_play_pc_game_hour":4,
+    "life_pleasure":5,
+    "average_games_score":80,
+    "average_game_time_in_minute":15,
+    "activity_click_count":30,
+    "activity_view_count":65,
+    "activity_view_time_in_minute":20,
+    "Anne":false,
+    "Baba":true,
+    "Ilkokul":false,
+    "Lise":false,
+    "OkumaYazmaBilmiyor": true,
+    "Ortaokul": true,
+    "Universite":false
+}'
+
+```
 
