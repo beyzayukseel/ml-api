@@ -45,7 +45,6 @@ uvicorn random-classifier-api:app --reload
 ```
 curl --location 'http://localhost:8000/' \
 --header 'Content-Type: application/json' \
---header 'Cookie: JSESSIONID=874A4DD28D5E9A6D34F15970F25E39BA' \
 --data '{
     "age":7,
     "gender":0,
